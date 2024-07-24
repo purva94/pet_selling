@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-fluid  {
+    margin-top: 0.5px;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.container-fluid img{
+    
+    width:65%;
+    height:50%;
+    object-fit: contain;    
+}
+.swiper
+{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+ .swiper .swiper-button-prev, .swiper .swiper-button-next 
+{
+    color:bisque;
+    background-color: rgba(0, 0, 0, 50%);
+} 
+
+.swiper .swiper-pagination-bullet-active
+{
+    background:#fff;
+}
+
+.col-md-2{
+        margin:10px auto 15px auto;
+        padding: 100px;
+        color:aquamarine;
+        font-size:15px;
+        width:30px;
+       
+
+        
+    }
+.col-md-9{
+    margin: 10px auto 15px auto;
+    padding: 20px;
+}
+.col-md-12{
+    background-color: rgba(0,0,0,0.8);
+}
+    
+    .container2{
+        background-color:pink;
+        margin-top: 60px;
+        padding-bottom:10px;
+        margin-bottom:-15px;
+        margin-top:-5px;
+        
+       background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/pets.jpeg");
+    }
+
+.main-left h4{
+    color:aquamarine;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+}
+
+.main-left p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16.4px;
+    color:burlywood;
+    
+
+    
+
+}
+/* .dropdown-menu img{
+    background-color: white;
+    
+} */
+
+.card-container{
+    margin: 30px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footer-container{
+    background:gray;
+    margin-bottom:-5px;
+    padding-top:-10px;
+    padding:10px;
+}
+
+.container3-fluid img{
+    border: 1px solid white;
+}
+
+.container3-fluid p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top:-20px;
+}
+
+.btn-dark{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+.footer{
+    word-spacing: 20px;
+}
+.container3-fluid{
+   
+   margin-top:-10px;
+ 
+
+}
+.container2{
+    margin-top:-8px;
+   
+}
+.about {
+  background: grey;
+  
+  
+}
+.about h1{
+    align-items: center;
+    color:white;
+}
+.footer-container{
+    color:white;
+   
+    margin-top:--30px;
+
+}
+.bi-facebook{
+    color:blue;
+}
+.bi-instagram{
+    color:palevioletred;
+}
+.bi-envelope-open-fill{
+    color:aqua;
+}
+.color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    margin-top:-12px;
+}
+.col-md-2{
+    margin-left: -25px;
+}
+.name{
+    color:aquamarine;
+    font-family: 'Dancing Script', cursive;;
+}
+
